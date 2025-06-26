@@ -71,7 +71,7 @@ body{
 }
 
  .sidebar{
-    background-color:  #142d4c;
+    -color:  #142d4c;
     color: whitesmoke;;
     width: 50%;
     height: 100%;
@@ -83,7 +83,7 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25);
  }
  body{
-    background-image: url("../images/bg-image.jpg");
+    background-image: url("../Project-Builders/images/bg-image.jpg");
     height: 120vh;
     width: auto;
     background-size: cover;
@@ -265,21 +265,7 @@ body{
     transform: translateX(5px);
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .services-section {
-        padding: 60px 15px;
-    }
-    
-    .section-header h2 {
-        font-size: 2rem;
-    }
-    
-    .services-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-}
+
 /* Contact Section */
 .contact-section {
     padding: 30px 5%;
@@ -519,4 +505,18 @@ body{
     .nav-menu ul{
         display: none;
     }
+    .services-section {
+        padding: 60px 15px;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
+
+    
