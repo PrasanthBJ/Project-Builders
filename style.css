@@ -83,13 +83,11 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25);
  }
  body{
-    background-image: url("../Project-Builders/images/bg-image.jpg");
+    background-image: url("..images/bg-image.jpg");
     height: 120vh;
     width: auto;
     background-size: cover;
     background-repeat:no-repeat;
-
-
  }
 
 
