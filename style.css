@@ -82,13 +82,7 @@ body{
     transition: left 0.5s ease-in-out;
     box-shadow: rgba(50, 50, 93, 0.25);
  }
- .side-name{
-    border: 1px dotted whitesmoke;
-    padding: 10px;
-    position: fixed;
-    bottom: 10px;
-    left: 20px;
- }
+
  body{
     background-image: url("images/bg-image.jpg");
     height: 120vh;
@@ -481,10 +475,7 @@ body{
     }
 
 }
-.f-contact-info{
-    display: flex;
 
-}
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 20px 0;
