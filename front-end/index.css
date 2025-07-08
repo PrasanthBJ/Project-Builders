@@ -1,0 +1,75 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styling Body */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ececec;
+   
+    
+}
+ body{
+    background-image: url("images/bg-image.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-repeat:no-repeat;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    &:hover{
+        color: green;
+    }
+ }
+ .loginForm{
+   margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 1px solid #9fd3c7;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+ }
+ .loginForm h2{
+    font-size: 2rem;
+ }
+
+ .loginForm input{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+     &:hover{
+        border: 5px solid #142d4c;
+    }
+
+ }
+ .loginForm button {
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: bisque;
+        
+    }
+
+ }
